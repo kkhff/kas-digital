@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.so
+*.egg
+*.egg-info/
+
+# Editor/IDE Files (Optional)
+.vscode/ # Folder konfigurasi Visual Studio Code
+.idea/   # Folder konfigurasi PyCharm/IntelliJ
+
+# Operating System Files
+.DS_Store # File MacOS
+Thumbs.db # File Windows
+
+# Virtual Environments
+venv/
+env/
+
+# Docker Files (Jika Anda melakukan testing build)
+*.log
