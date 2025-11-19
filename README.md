@@ -1,7 +1,7 @@
-# 💰 KAWI-Kas: Catatan Kas Digital Berbasis Konsol
+# KAWI-Kas: Catatan Kas Digital Berbasis Konsol
  KAWI-Kas adalah solusi fintech minimalis berbasis terminal yang dirancang untuk melacak dan mengelola keuangan pribadi harian secara aman. Proyek ini dibangun dengan Python murni, berfokus pada integritas data dan pengalaman pengguna di lingkungan command line interface (CLI).
 
-## ✨ Fitur Kunci & Arsitektur
+## Fitur Kunci & Arsitektur
 **Fungsionalitas Inti**
 - **Dukungan Multi-Akun:** Sistem memungkinkan pembuatan dan pengelolaan akun pengguna yang terpisah, dengan saldo dan riwayat transaksi yang terisolasi per individu.
 
@@ -45,7 +45,7 @@ Untuk memastikan konsistensi lingkungan, containerize aplikasi dengan Docker.
     ```
 (Flag --rm secara otomatis menghapus container setelah selesai)
 
-## 💡 Panduan Penggunaan
+## Panduan Penggunaan
 Aplikasi akan memandu Anda melalui menu utama.  
 |Menu|Keterangan|Catatan Penting|
 |-----|--------|---------|
@@ -54,10 +54,3 @@ Aplikasi akan memandu Anda melalui menu utama.
 |Edit Riwayat|Memungkinkan koreksi typo pada Nominal atau Keterangan.|Logika ini secara otomatis membalikkan transaksi lama dan menghitung ulang saldo.|
 |Hapus Transaksi|Menghapus entri dari riwayat dan mengembalikan saldo ke keadaan sebelum transaksi itu.|
 
-## 👤 Kontributor
-Proyek ini dikembangkan oleh:
-- Kahfi Athohillah
-- Wisanggeni Cahya Manggalar
-
-## 📜 Lisensi
-Proyek ini berada di bawah Lisensi MIT. Silakan merujuk pada file `LICENSE` untuk detail lengkap
